@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include "Header.h"
 
 int main()
 {
@@ -6,6 +7,8 @@ int main()
 	std::cout << a;
 	std::cout << std::endl;
 	std::cout << "Hello World" << std::endl;
+
+	foo(a);
 }
 
 
